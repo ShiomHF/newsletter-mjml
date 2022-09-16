@@ -17,7 +17,7 @@
                 <mj-text font-size="16px" align="center" padding="0px 10px 0px 10px"
                     ><mj-text>Home</mj-text
                     mj-column><span> l </span><mj-text
-                        >Produits</mj-text
+                        >Produit</mj-text
                     ><span> l </span>
                     <mj-text>Contact</mj-text>
                 </mj-text>

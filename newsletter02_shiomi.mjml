@@ -1,203 +1,154 @@
 <mjml>
-<mj-head><mj-font name="Montserrat" href="https://fonts.googleapis.com" />
-<mj-attributes>
-            <mj-all
-                font-family='Montserrat', sans-serif
-                href="https://fonts.googleapis.com"
-                align="center"
-            ></mj-all></mj-head>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com" />
+    <mj-attributes>
+      <mj-all font-family='Montserrat' , sans-serif href="https://fonts.googleapis.com" align="center" />
+  </mj-head>
 
+  <mj-body background-color="#ffffff">
+    <mj-section background-color="#ffffff" full-width="full-width">
+      <mj-column width="40%" vertical-align="middle">
+        <mj-image src="https://zupimages.net/up/22/39/k8jc.png" width="120px" />
+      </mj-column>
+      <mj-column width="60%" vertical-align="middle">
+        <mj-text font-size="16px" align="center" padding="0px 10px 0px 10px">
+          <mj-text>Home</mj-text> l
+          <mj-text>Produit</mj-text> l
+          <mj-text>Contact</mj-text>
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-    <mj-body background-color="#ffffff" full-width="full-width">
-        <mj-section background-color="#ffffff" full-width="full-width">
-            <mj-column width="40%" vertical-align="middle">
-                <mj-text  font-size="16px" >LOGO</mj-text>
-            </mj-column>
-            <mj-column width="60%" vertical-align="middle">
-                <mj-text font-size="16px" align="center" padding="0px 10px 0px 10px"
-                    ><mj-text>Home</mj-text
-                    mj-column><span> l </span><mj-text
-                        >Produit</mj-text
-                    ><span> l </span>
-                    <mj-text>Contact</mj-text>
-                </mj-text>
-            </mj-column>
-        </mj-section>
+    <mj-section background-url="https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" background-size="cover" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="center" color="#FFF" padding-bottom="10px" padding-top="45px" font-size="30px" line-height="30px" font-weight="bold" font-family='Montserrat'>
+          C'est bon pour la santé
+        </mj-text>
+        <mj-button align="center" background-color="#e85034" color="#fff" border-radius="20px" href="https://mjml.io" font-size="16px" padding-bottom="45px" padding-top="30px">CONTACTEZ NOUS</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-weight="bold" padding="20px 10px 0px 10px" font-size="26px" align="center">Nos produits</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image padding-top="20px" border-radius="150px" width="165px" src="https://images.unsplash.com/photo-1566663334283-18826ccd845c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#000">Tomates</mj-text>
+        <mj-text padding="10px 30px" align="justify" font-size="13px" color="#000">
+          Retrouvez nos plus belles tomates et leurs nombreuses variétés (cœur de bœuf, rose de Berne, verte zébrée, etc...).
+        </mj-text>
+        <mj-button background-color="#8ccaca" border-radius="40px" font-size="12px">
+          Plus de détails
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image padding-top="20px" border-radius="150px" width="165px" src="https://zupimages.net/up/22/37/1puf.png"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#000">Melon</mj-text>
+        <mj-text padding="10px 30px" align="justify" font-size="13px" color="#000">
+          Nous vous proposons notre plus belle sélection de melons de saison. Au goût doux et sucré il fera le plaisir de votre été.
+        </mj-text>
+        <mj-button background-color="#8ccaca" border-radius="40px" font-size="12px">
+          Plus de détails
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image padding-top="20px" border-radius="150px" width="165px" src="https://images.unsplash.com/photo-1604977042946-1eecc30f269e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"></mj-image>
+        <mj-text font-weight="bold" align="center" font-size="16px" color="#000">Concombres</mj-text>
+        <mj-text padding="10px 30px" align="justify" font-size="13px" color="#000">
+          Retrouvez la dernière variété de cet été, les concombres de la variété <em>kyûri</em> tous droits venus du pays du soleil levant.
+        </mj-text>
+        <mj-button background-color="#8ccaca" border-radius="40px" font-size="12px">
+          Plus de détails
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#e85034" full-width="full-width">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="center" color="#ffffff" font-size="20px" padding-bottom="0">
+          Qui-sommes-nous ?
+        </mj-text>
+        <mj-divider border-color="#fff" border-style="solid" border-width="1px" padding-left="100px" padding-right="100px" padding-bottom="20px" padding-top="20px">
+        </mj-divider>
+        <mj-text align="center" color="#f8d5d1" font-size="18px" padding-bottom="25px">
+          Maraîchers bio en fruits et légumes plein champ et sous abris froid.
+          Nous élevons aussi des poules pondeuses et poulets de chair bio.
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-        <mj-section
-            background-url="https://images.unsplash.com/photo-1610348725531-843dff563e2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-            vertical-align="middle"
-            background-size="cover"
-            full-width="full-width"
+    <mj-section padding="0 15px 0 15px">
+      <mj-column width="100%" padding="30px 10px 0px 10px">
+        <mj-text color="#212b35" font-weight="bold" font-size="20px" padding-bottom="0">
+          Nous avons hâte de vous rencontrer !
+        </mj-text>
+        <mj-text color="#637381" font-size="16px">
+          Retrouvez-nous
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+      <mj-column width="50%">
+        <mj-text color="#212b35" font-size="12px" text-transform="uppercase" font-weight="bold" padding-bottom="10px">
+          contact
+        </mj-text>
+        <mj-text color="#637381" font-size="14px" padding-top="0">
+          Tel : 03 85 28 01 61 /<br>
+          07 77 00 38 29<br>
+          Mèl : magfolphi@orange.fr
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text color="#212b35" font-size="12px" text-transform="uppercase" font-weight="bold" padding-bottom="10px">
+          Marché
+        </mj-text>
+        <mj-text color="#637381" font-size="14px" padding-top="0">
+          Le mardi à l'AMAP de CLUNY, le mercredi à l'AMAP de VEROSVRES<br><br>
+          Le mercredi au marché de CHALON SUR SAÔNE, place de l’Hôtel de ville
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+      <mj-column width="100%">
+        <mj-image border-radius="15px" src="https://zupimages.net/up/22/37/0ydi.png" href="https://www.google.com/maps/place/Pl.+de+l'H%C3%B4tel+de+ville,+71100+Chalon-sur-Sa%C3%B4ne/@46.780961,4.853092,17z/data=!3m1!4b1!4m5!3m4!1s0x47f2fcbf61c4c631:0x12e5aea1690774f6!8m2!3d46.780961!4d4.853092" />
+      </mj-column>
+    </mj-section>
 
-        >
-            <mj-column width="100%" vertical-align="middle">
-                <mj-text align="center" color="#FFF" padding-bottom="10px" padding-top="45px" font-size=" 30px" line-height="30px" font-weight="bold" font-family='Montserrat'
-                     >C'est bon pour la santé</mj-text>
-                <mj-button
-                    align="center"
-                    background-color="#e85034"
-                    color="#fff"
-                    border-radius="20px"
-                    href="https://mjml.io"
-                    font-size="16px"
-                    padding-bottom="45px"
-                    padding-top="30px"
-                    >CONTACT-NOUS</mj-button
-                >
-            </mj-column>
-        </mj-section>
-        <mj-section>
-            <mj-column> <mj-text font-weight="bold" padding="20px 10px 0px 10px"  font-size="26px" align="center">Nos produits</mj-text></mj-column></mj-section
-        >
-        <mj-section>
-            <mj-column >
-                <mj-image
-                padding-top="20px"
-                    border-radius="150px"
-                    width="165px"
-                    src="https://images.unsplash.com/photo-1566663334283-18826ccd845c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                ></mj-image>
-                <mj-text font-weight="bold" align="center" font-size="16px" color="#000" 
-                    >Tomates</mj-text
-                >
-                <mj-text padding="10px 30px" align="justify" font-size="13px" color="#000" 
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text
-                >
-                <mj-button background-color="#8ccaca" border-radius="40px"  font-size="12px"
-                    >Plus détail</mj-button
-                >
-            </mj-column>
-            <mj-column>
-                <mj-image
-                padding-top="20px"
-                    border-radius="150px"
-                    width="165px"
-                    src="https://images.unsplash.com/photo-1605693739596-997481de7c46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                ></mj-image>
-                <mj-text font-weight="bold" align="center" font-size="16px" color="#000" 
-                    >Pommes</mj-text
-                >
-                <mj-text padding="10px 30px" align="justify" font-size="13px" color="#000" 
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text
-                >
-                <mj-button background-color="#8ccaca" border-radius="40px"  font-size="12px"
-                    >Plus détail</mj-button
-                >
-            </mj-column>
-            <mj-column>
-                <mj-image
-                padding-top="20px"
-                    border-radius="150px"
-                    width="165px"
-                    src="https://images.unsplash.com/photo-1558408525-1092038389ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                ></mj-image>
-                <mj-text font-weight="bold" align="center" font-size="16px" color="#000" 
-                    >Okura</mj-text
-                >
-                <mj-text padding="10px 30px" align="justify" font-size="13px" color="#000" 
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text
-                >
-                <mj-button background-color="#8ccaca" border-radius="40px"  font-size="12px"
-                    >Plus détail</mj-button
-                >
-            </mj-column>
-        </mj-section>
-        <mj-section background-color="#e85034" vertical-align="middle" full-width="full-width">
-            <mj-column width="100%" vertical-align="middle">
-                <mj-text align="center" color="#ffffff" font-size="20px" padding-bottom="0"
-                    >Qui nous sommes?</mj-text
-                >
-                <mj-divider
-                    border-color="#fff"
-                    border-style="solid"
-                    border-width="1px"
-                    padding-left="100px"
-                    padding-right="100px"
-                    padding-bottom="20px"
-                    padding-top="20px"
-                ></mj-divider>
-                <mj-text align="center" color="#f8d5d1" font-size="18px" padding-bottom="25px"
-                    >Maraîchers bio en légumes plein champ et sous abris froid.
+    <mj-section background-color="#e85034" background-size="cover" full-width="full-width">
+      <mj-column>
+        <mj-text padding-bottom="0" font-family="Montserrat" font-size="14px" color="#FFF">
+          Eveline et Philippe FOLLÉAS<br>
+          Lieu-dit Pommerey<br>
+          71220 LA GUICHE, Saône-et-Loire
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section  background-color="#e85034" background-size="cover"background-size="cover" full-width="full-width">
 
-Nous élevons aussi des poules pondeuses et poulets de chair bio.</mj-text
-                >
-            </mj-column>
-        </mj-section>
-       
-  <mj-section padding="0 15px 0 15px">
-        <mj-column width="100%" padding="30px 10px 0px 10px">
-          <mj-text color="#212b35" font-weight="bold" font-size="20px" padding-bottom="0">
-            Nous avons hâté de vous voir !
-          </mj-text>
-          <mj-text color="#637381" font-size="16px">
-            texte 
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
-        <mj-column width="50%">
-          <mj-text color="#212b35" font-size="12px" text-transform="uppercase" font-weight="bold" padding-bottom="10px">
-            contact
-          </mj-text>
-          <mj-text color="#637381" font-size="14px" padding-top="0">
-             tel : 03 85 28 01 61 / 07 77 00 38 29
-magfolphi@orange.fr
-          </mj-text>
-        </mj-column>
-        <mj-column width="50%">
-          <mj-text color="#212b35" font-size="12px" text-transform="uppercase" font-weight="bold" padding-bottom="10px">
-            Marché
-          </mj-text>
-          <mj-text color="#637381" font-size="14px" padding-top="0">
-            Les mardis, vendredis
-Le mercredi marché de CHALON SUR SAÔNE place de l’Hôtel de ville.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
-        <mj-column width="100%">
-        <
-          <mj-image border-radius="15px" src="images\map-chezfolleas.png" href="https://www.google.com/maps/place/Folleas+Philippe/@46.512018,4.4473966,13z/data=!4m5!3m4!1s0x0:0x6519a6ede2707c43!8m2!3d46.5034061!4d4.4535528" />
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
+        <mj-column vertical-align="middle">
+        <mj-button padding-top="0" align="center" inner-padding="10px 20px" width="200px" font-weight="bold" background-color="#FFF" color="rgba(195, 50, 46, 1)" border-radius="50px" font-size="16px">
+          <span color="#e85034">
+            CONTACTEZ-NOUS
+          </span>
+        </mj-button>
+      </mj-column></mj-section>
 
-         <mj-section background-color="#e85034" background-size="cover" full-width="full-width">
-            <mj-column>
-                <mj-text 
-                padding-bottom="0"
-                    font-family="Montserrat"
-                    font-size="14px"
-                    color="#FFF"
-                >
-                    Eveline et Philippe FOLLEAS – Pommerey <br> 71220 La guiche, Saône-et-Loire
-                </mj-text>
-            </mj-column>
-        </mj-section>
-        <mj-section background-color="#e85034" background-size="cover"full-width="full-width" >
-            <mj-column vertical-align="middle">
-                <mj-text padding-top="0" font-size="16px"> LOGO </mj-text> </mj-column
-            ><mj-column vertical-align="middle">
-                <mj-button
-                padding-top="0"
-                align="center"
-                inner-padding="10px 20px"
-                width="200px"
-                    font-weight="bold"
-                    background-color="#FFF"
-                    color="rgba(195, 50, 46, 1)"
-                    border-radius="50px"
-                    font-size="16px"
-                    ><span color="#e85034"  padding="0px 10px">CONTACT-NOUS</span>
-                </mj-button>
-            </mj-column>
-            <mj-column vertical-align="middle">
-                <mj-social padding-top="0" mode="horizontal">
-                    <mj-social-element padding="0px 10px" src="images\facebook.png"></mj-social-element>
-                    <mj-social-element src="images\instagram.png"></mj-social-element>
-                </mj-social>
-            </mj-column>
-        </mj-section>
-    </mj-body>
+    <mj-section background-color="#e85034" background-size="cover" full-width="full-width">
+
+      <mj-column vertical-align="middle">
+        <mj-image src="https://zupimages.net/up/22/39/6b0f.png" width="120px"  />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-social padding-top="0" mode="horizontal">
+
+          <mj-social-element padding="0px 10px" src="https://zupimages.net/up/22/37/mqht.png">
+          </mj-social-element>
+          <mj-social-element src="https://zupimages.net/up/22/37/ing3.png">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
 </mjml>
